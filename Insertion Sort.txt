@@ -11,6 +11,7 @@ Our 3rd smallest number is 16.
 Since 16 is already in its correct index. We dont need to do anything
 Now find the smallest number in the indexes between 3 and n-1 (3)
 Our 4th smallest number is 18. 
+Swap 18 with 4th index. Our new array becomes
 [2,6,16,18,22,27] 
 Since our array is already sorted, we dont need to continue our sorting. 
 
