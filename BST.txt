@@ -1,0 +1,14 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+I am going to add an image representation of the final tree to the project. It is quite hard to do it in a text file
+Take the 7 as root node.
+Since 5<7, put 5 into the 7's left node
+1<7 and 1<5, put 1 into the 5's left node
+8>7, put 8 into the 7's right node
+3<7, 3<5, 3>1, put 3 into the 1's right node
+6<7, 6>5, put 6 into the 5's right node 
+0<7, 0<5, 0<1, put 0 into the 1's left node
+9>7, 9>8, put 9 into the 8's right node
+4<7, 4<5, 4>1, 4>3, put 4 into the 3's right node
+2<7, 2<5, 2>1, 2<3 put 2 into the 3's left node
+Our tree is complete
